@@ -23,10 +23,6 @@ public class Main {
         driver.findElement(By.id("change_id")).sendKeys("test_id");
         driver.findElement(By.id("change_className")).sendKeys("test_class");
         driver.findElement(By.id("Submit")).click();
-//        for (int i = 1; i <= 5; i++) {
-//            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-//            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-//            System.out.println("i = " + i);
-//        }
+
     }
 }
